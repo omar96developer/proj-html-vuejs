@@ -160,7 +160,42 @@
 
         </div>
       </section>
-      
+      <!-- section testimonials -->
+      <section class="testimonial">
+          <div class="container-lg">
+
+          </div>
+      </section>
+      <!-- section news -->
+       <section class="news">
+          <div class="container-lg border">
+              <div class="row text-center">
+                  <div class="bg-white">
+                    <h2 >Latest News</h2>
+
+                  </div>
+                <div class="col d-flex bg-white border">
+                    <div class="col-6  border">
+                        <img src="../assets/img/blog-choosecar-320x202.jpg" alt="">
+                        <h5>What Car to Start with?</h5>
+                        <small>February 7th, 2019 | 0 Comments</small>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="col-6 border">
+                        <img src="../assets/img/blogpost-10and2-320x202.jpg" alt="">
+                        <h5>Avada Driving School Expanding</h5>
+                        <small>February 7th, 2019 | 0 Comments</small>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <button type="button" class="btn btn-primary">MORE FROM THE BLOG</button>
+                </div>
+                <img src="../assets/img/latestnews-bottom.png" alt="#">
+                  
+              </div>
+          </div>
+      </section>
 
      
     </main>
