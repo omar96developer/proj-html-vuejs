@@ -196,6 +196,22 @@
               </div>
           </div>
       </section>
+      <!-- section newsletter -->
+      <section class="newsletter">
+          <div class="container-lg">
+              <div class="row">
+                  <div class="col-8 m-auto text-center border">
+                        <h2>Sign up to our Newsletter</h2>
+                        <input type="text">
+                        <div class="bg-white">
+                            <button type="button" class="btn btn-primary">MORE FROM THE BLOG</button>
+                        </div>
+                        <p>(We do not share your data with anybody, and only use it for its intended purpose)</p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
 
      
     </main>
