@@ -1,0 +1,64 @@
+.header_section {
+    width: 100%;
+    height: 80vh;
+    background-image: url(assets/img/homepage-hero-background.jpg);
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+
+    
+    .nav_bar {
+        height: 120px;
+        .nav_a {
+            height: 30px;
+            background-color: #484848;
+            .nav_a1, .nav_a2 {
+                height: 30px;
+                align-items: center;
+            } 
+        }
+        .nav_b {
+            height: 90px;
+            background-color: rgba(0, 0, 0, 0.5);
+            .nav_b1, .nav_b2 {
+                height: 90px;
+            }
+            .nav_b2 {
+                ul{
+                    width: 100%;
+                    justify-content: space-around;
+                    align-items: center;
+                    li{
+                        list-style: none;
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    .hero_section {
+        height: calc(80vh - 120px);
+        .hero_section_a {
+            justify-content: center;
+        }
+        
+    }
+    .hero_section_ico{
+        width: 80px;
+        padding: 0;
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        .hero_ico_1, .hero_ico_2 {
+            width: 100%;
+            height: 80px;
+            padding: 5px;
+            background-color: white;
+            color: black;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+    }
+}
