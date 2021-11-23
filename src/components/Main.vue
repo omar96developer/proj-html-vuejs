@@ -61,56 +61,61 @@
       </section>
       <!-- section courses -->
       <section class="courses">
-        <div class="container-fluid courses-fluid">
-          <div class="container-lg">
+      
+        <div class="container-lg">
 
-            <div class="row d-flex border courses_a">
+          <div class="row d-flex border courses_a">
 
-              <div class="col-4 border">
-                <div class="courses_a1 text-center position-relative p-5 border">
-                  <h2 class="mb-5">Courses</h2>
-                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt in magnam, saepe rerum vel? Porro, enim nam quibusdam nulla ea, accusamus officia perspiciatis praesentium recusandae, optio ipsa eaque delectus.</p>
-                  <a href="#" class="btn border">COURSE INFORMATION</a>
-                  <img src="../assets/img/new-corner.jpg" alt="corner" class="position-absolute top-0 start-0" style="height:50px;">
-                </div>
-              </div>
-
-              <div class="col-8  p-5 courses_a2  d-flex  justify-content-around border">
-
-                <div class="card p-5" >
-                  <img src="../assets/img/courses-passplus.jpg" class="card-img-top" alt="passplus">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Pass Plus</h5>                    
-                    <a href="#" class="btn border">LEARN MORE</a>
-                  </div>
-                </div>
-                  <div class="card p-5" >
-                  <img src="../assets/img/course-intensive.jpg" class="card-img-top" alt="passplus">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Pass Plus</h5>                    
-                    <a href="#" class="btn border">LEARN MORE</a>
-                  </div>
-                </div>
-                  <div class="card p-5" >
-                  <img src="../assets/img/courses-instructor.jpg" class="card-img-top" alt="passplus">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Pass Plus</h5>                    
-                    <a href="#" class="btn border">LEARN MORE</a>
-                  </div>
-                </div>
+            <div class="col-4 border">
+              <div class="courses_a1 text-center position-relative p-5 border">
+                <h2 class="mb-5">Courses</h2>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt in magnam, saepe rerum vel? Porro, enim nam quibusdam nulla ea, accusamus officia perspiciatis praesentium recusandae, optio ipsa eaque delectus.</p>
+                <a href="#" class="btn border">COURSE INFORMATION</a>
+                <img src="../assets/img/new-corner.jpg" alt="corner" class="position-absolute top-0 start-0" style="height:50px;">
               </div>
             </div>
 
-            <div class="row courses_b border">
-              <div class="col-12 d-flex justify-content-around">
-                <div class="rate border"><p>95</p></div>
-                <div class="rate border"><p>100</p></div>
-                <div class="rate border"><p>0</p></div>
+            <div class="col-8  p-5 courses_a2  d-flex  justify-content-around border">
+
+              <div class="card p-5" >
+                <img src="../assets/img/courses-passplus.jpg" class="card-img-top" alt="passplus">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pass Plus</h5>                    
+                  <a href="#" class="btn border">LEARN MORE</a>
+                </div>
               </div>
-              
-              
+                <div class="card p-5" >
+                <img src="../assets/img/course-intensive.jpg" class="card-img-top" alt="passplus">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pass Plus</h5>                    
+                  <a href="#" class="btn border">LEARN MORE</a>
+                </div>
+              </div>
+                <div class="card p-5" >
+                <img src="../assets/img/courses-instructor.jpg" class="card-img-top" alt="passplus">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pass Plus</h5>                    
+                  <a href="#" class="btn border">LEARN MORE</a>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="container-fluid courses_b p-0 position-relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L60,122.7C120,149,240,203,360,229.3C480,256,600,256,720,229.3C840,203,960,149,1080,133.3C1200,117,1320,139,1380,149.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+          <div class="container-fluid position-absolute top-0">
+            <div class="container-lg">
+              <div class="row courses_b border">
+                <div class="col-12 d-flex justify-content-around">
+                    <div class="rate border"><p>95</p></div>
+                    <div class="rate border"><p>100</p></div>
+                    <div class="rate border"><p>0</p></div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
         </div>
       </section>
       <!-- section instructor -->
