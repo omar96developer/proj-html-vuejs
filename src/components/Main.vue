@@ -180,30 +180,33 @@
       </section>
       <!-- section news -->
        <section class="news">
-          <div class="container-lg ">
-              <div class="row text-center">
-                  <div class="bg-white">
+          <div class="container-lg p-5">
+              <div class="row text-center news_a">
+                
+                <div class="col d-flex flex-column bg-white news_a1">
+                  <div class="py-5 nws_a">
                     <h2 >Latest News</h2>
-
                   </div>
-                <div class="col d-flex bg-white border">
-                    <div class="col-6  border">
-                        <img src="../assets/img/blog-choosecar-320x202.jpg" alt="">
-                        <h5>What Car to Start with?</h5>
-                        <small>February 7th, 2019 | 0 Comments</small>
-                        <p>Lorem ipsum dolor sit amet</p>
+                  <div class="col d-flex justify-content-center gap-4">
+                    <div class="col-5 border">
+                        <img src="../assets/img/blog-choosecar-700x441.jpg" alt="">
+                        <h5 class="mt-3">What Car to Start with?</h5>
+                        <p class="p_1">February 7th, 2019 | <span style="color:#7abc64;">0 Comments</span> </p>
+                        <p class="p_2">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <div class="col-6 border">
-                        <img src="../assets/img/blogpost-10and2-320x202.jpg" alt="">
-                        <h5>Avada Driving School Expanding</h5>
-                        <small>February 7th, 2019 | 0 Comments</small>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="col-5 border">
+                        <img src="../assets/img/blogpost-10and2-700x441.jpg" alt="">
+                        <h5 class="mt-3">Avada Driving School Expanding</h5>
+                        <p class="p_1">February 7th, 2019 | <span style="color:#7abc64;">0 Comments</span> </p>
+                        <p class="p_2">Lorem ipsum dolor sit amet</p>
                     </div>
+                  </div>
+                  <div class="pt-5 ">
+                    <button type="button" class="btn news_b">MORE FROM THE BLOG</button>
+                  </div>  
                 </div>
-                <div class="bg-white">
-                    <button type="button" class="btn btn-primary">MORE FROM THE BLOG</button>
-                </div>
-                <img src="../assets/img/latestnews-bottom.png" alt="#">
+                
+                <img class="nws_v" src="../assets/img/latestnews-bottom.png" alt="#">
                   
               </div>
           </div>
