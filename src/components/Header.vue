@@ -25,13 +25,13 @@
             </div>
             <div class="col-7 py-4 nav_b2 border d-flex">
               <ul class="d-flex ">
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PRICES</li>
-                <li>COURSES</li>
-                <li>LOCATIONS</li>
-                <li>BLOG</li>
-                <li><a href="#">BOOK NOW</a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PRICES</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">LOCATIONS</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a class="nav-btn" href="#">BOOK NOW</a></li>
               </ul>
             </div>
           </div>

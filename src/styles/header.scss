@@ -26,8 +26,13 @@
                     li{
                         list-style: none;
                         font-weight: 500;
+                        font-size: 16px;
                     }
                     a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    .nav-btn{
                         background-color: #7abc64;
                         color: white;
                         border-radius: 15px;
