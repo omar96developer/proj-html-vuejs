@@ -1,6 +1,6 @@
 .header_section {
     width: 100%;
-    height: 80vh;
+    
     background-image: url(assets/img/homepage-hero-background.jpg);
     background-size: 100% 100%;
     color: white;
@@ -8,7 +8,6 @@
 
     
     .nav_bar {
-
         .nav_a {
             background-color: #484848;
             p {
@@ -28,18 +27,7 @@
                         font-weight: 500;
                         font-size: 16px;
                     }
-                    a{
-                        text-decoration: none;
-                        color: white;
-                    }
-                    .nav-btn{
-                        background-color: #7abc64;
-                        color: white;
-                        border-radius: 15px;
-                        text-decoration: none;
-                        padding: 5px 15px;
-                    }
-                    
+                                         
                 }
                 
             }
@@ -63,7 +51,7 @@
         width: 80px;
         padding: 0;
         position: absolute;
-        top: 100px;
+        top: 120px;
         right: 10px;
         .hero_ico_1, .hero_ico_2 {
             width: 100%;
@@ -80,3 +68,4 @@
         }
     }
 }
+

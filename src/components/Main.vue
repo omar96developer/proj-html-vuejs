@@ -60,7 +60,7 @@
         </div>
       </section>
       <!-- section courses -->
-      <section class="courses">
+      <section  class="courses">
         <div class="container-lg courses_a p-5">
           <!-- course info -->
           <div class="row d-flex  courses_a">
