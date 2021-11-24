@@ -98,10 +98,29 @@
         
     } 
     .courses_b {
-        border: 3px solid; 
+        .percent {
+            .card{
+            border-top: 5px solid #7abc64;
+            width: 370px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 13px 20px 5px rgba(134,134,134,0.8);
+            div {
+                height: 170px;
+                width: 170px;
+                border-radius: 50%;
+                border: 5px solid #7abc64;
+                span {
+                    font-size: 48px;
+                }
+            }
+            
+            }
+        }
     }
 }
 .instructor {
+    margin-top: 250px;
     a{
         width: 300px;
         background-color: #7abc64;
