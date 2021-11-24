@@ -117,30 +117,30 @@
         </div>
       </section>
       <!-- section instructor -->
-      <section class="instructor py-5">
-        <div class="container-lg border"> 
-          <div class="row border">
-            <div class="col-8 border">
-              <h2>Your instructors</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, eos in recusandae placeat, unde perspiciatis maiores quod magnam reiciendis doloribus alias quo commodi labore, ut nam itaque. Dignissimos, perspiciatis nobis!</p>
+      <section class="instructor ">
+        <div class="container-lg  px-5"> 
+          <div class="row  inst_a">
+            <div class="col-8 ">
+              <h2 class="mb-5">Your instructors</h2>
+              <p class="fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, eos in recusandae placeat, unde perspiciatis maiores quod magnam reiciendis doloribus alias quo commodi labore.</p>
             </div>
-            <div class="col-4 border d-flex justify-content-center align-self-center">
-                  <a href="#" class="btn border">MORE ABOUT US</a>
+            <div class="col-4  d-flex justify-content-center align-self-center">
+                  <a href="#" class="btn ">MORE ABOUT US</a>
             </div>
 
           </div>
-          <div class="row border">
-            <div class="col-12 d-flex py-5 justify-content-between gap-5">
+          <div class="row  inst_b">
+            <div class="col-12 d-flex justify-content-between p-0">
               <div class="card p-5" >
                   <img src="../assets/img/instructor-mikehart.jpg" class="card-img-top" alt="passplus">
                   <div class="card-body text-center">
                     <h5 class="card-title">Mike Hart</h5>
                     <p><i class="fab fa-facebook-f me-3"></i><i class="fab fa-twitter me-3"></i><i class="fab fa-instagram"></i></p>                    
                                         
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat facere, labore inve</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisici</p>
                   </div>
               </div>
-              <div class="card p-5" >
+              <div class="card card-two p-5" >
                   <img src="../assets/img/instructor-johnsmith.jpg" class="card-img-top" alt="passplus">
                   <div class="card-body text-center">
                     <h5 class="card-title">John Smith</h5>                    
@@ -149,12 +149,12 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat facere, labore inve</p>
                   </div>
               </div>
-              <div class="card p-5" >
+              <div class="card   p-5" >
                   <img src="../assets/img/instructor-angelahart.jpg" class="card-img-top" alt="passplus">
                   <div class="card-body text-center">
                     <h5 class="card-title">Angela Hart</h5>                    
                     <p><i class="fab fa-facebook-f me-3"></i><i class="fab fa-twitter me-3"></i><i class="fab fa-instagram"></i></p>                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat facere, labore inve</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.e</p>
                   </div>
               </div>
 
@@ -164,14 +164,23 @@
         </div>
       </section>
       <!-- section testimonials -->
-      <section class="testimonial">
-          <div class="container-lg">
-
+      <section class="testimonial py-5">
+          <div class="container-lg testimonial_a mt-5 p-5">
+            <div class="row">
+              <div class="col-6 m-auto d-flex flex-column text-center">
+                <h2>Testimonial</h2>
+                <p>Here's what our happy drivers hadto say about our service</p>
+                <img class="align-self-center my-5" src="../assets/img/testimonial-sophia.png" alt="Seph-img"  style="width:150px;">
+                <p>Avada Driving School helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! <br> Higly recommended.</p>
+                <p style="color:#57575A;">Sephia Jones</p>
+                <span class="circle"><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
+              </div>
+            </div>
           </div>
       </section>
       <!-- section news -->
        <section class="news">
-          <div class="container-lg border">
+          <div class="container-lg ">
               <div class="row text-center">
                   <div class="bg-white">
                     <h2 >Latest News</h2>

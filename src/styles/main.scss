@@ -89,7 +89,26 @@
         border: 3px solid; 
     }
 }
-  
+.instructor {
+    a{
+        width: 300px;
+        background-color: #7abc64;
+        color: white;
+        border-radius: 25px;
+    }
+    .inst_b {
+        .card{
+            border-top: 5px solid #7abc64;
+            width: 370px;
+            height: 400px;
+            box-shadow: 0px 13px 20px 5px rgba(134,134,134,0.8);
+            transform: translateY(70px);
+        }
+        .card-two {
+            height: 450px;
+        }
+    }
+}
 .rate{
     width: 200px;
     height: 200px;
@@ -97,9 +116,18 @@
 
 .testimonial{
     width: 100%;
-    height: 400px;
     background-image: url(assets/img/testimonial-background.jpg);
     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    .testimonial_a {
+
+        .circle{
+            font-size: 12px;
+            i{
+                margin: 0 3px;
+            }
+        }
+    }
     
 }
 .news{
