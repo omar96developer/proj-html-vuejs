@@ -213,15 +213,15 @@
       </section>
       <!-- section newsletter -->
       <section class="newsletter">
-          <div class="container-lg">
+          <div class="container-lg py-5">
               <div class="row">
-                  <div class="col-8 m-auto text-center border">
-                        <h2>Sign up to our Newsletter</h2>
-                        <input type="text">
-                        <div class="bg-white">
-                            <button type="button" class="btn btn-primary">MORE FROM THE BLOG</button>
+                  <div class="col-8 m-auto text-center newsletter_a">
+                        <h2 class="mb-5">Sign up to our Newsletter</h2>
+                        <input type="email" class="mb-4">
+                        <div>
+                          <a href="#" class="btn">SUBSCRIBE</a>
                         </div>
-                        <p>(We do not share your data with anybody, and only use it for its intended purpose)</p>
+                        <p class="mt-4">(We do not share your data with anybody, and only use it for its intended purpose)</p>
                   </div>
               </div>
           </div>
