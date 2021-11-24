@@ -113,19 +113,19 @@
                       <div class="d-flex justify-content-center align-items-center ">
                         <span>95%</span>
                       </div>
-                      <p class="mt-3 fs-4">PASS RATE</p>
+                      <p class="mt-3 fs-5">PASS RATE</p>
                   </div>
                   <div class="card px-5 py-4 d-flex justify-content-center align-items-center" >
                       <div class="d-flex justify-content-center align-items-center ">
                         <span>100%</span>
                       </div>
-                      <p class="mt-3 fs-4">REFERRAL RATE</p>
+                      <p class="mt-3 fs-5">REFERRAL RATE</p>
                   </div>
                   <div class="card px-5 py-4 d-flex justify-content-center align-items-center" >
                       <div class="d-flex justify-content-center align-items-center ">
                         <span>0%</span>
                       </div>
-                      <p class="mt-3 fs-4">ACCIDENT RATE</p>
+                      <p class="mt-3 fs-5">ACCIDENT RATE</p>
                   </div>
                 </div>
               </div>        
