@@ -61,9 +61,8 @@
       </section>
       <!-- section courses -->
       <section class="courses">
-      
         <div class="container-lg courses_a p-5">
-
+          <!-- course info -->
           <div class="row d-flex  courses_a">
             <!-- course info -->
             <div class="col-4  courses_ab">
@@ -101,17 +100,16 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid courses_b p-0 position-relative">
+        <!-- courese percentage -->
+        <div class="container-fluid  p-0 position-relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L60,122.7C120,149,240,203,360,229.3C480,256,600,256,720,229.3C840,203,960,149,1080,133.3C1200,117,1320,139,1380,149.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
           <div class="container-fluid position-absolute top-0">
-            <div class="container-lg p-5">
-              <div class="row courses_b border">
-                <div class="col-12 d-flex justify-content-around">
-                    <div class="rate border"><p>95</p></div>
-                    <div class="rate border"><p>100</p></div>
-                    <div class="rate border"><p>0</p></div>
-                </div>
-              </div>
+            <div class="container-lg p-5 courses_b">
+              
+                            
+                   
+
+              
             </div>
             
           </div>
