@@ -25,7 +25,7 @@
             <div>
               <h5 class="mb-4">COURSES</h5>
               <ul class="p-0">
-               
+               <ListB v-for="(corse, i) in courses" :key="i" :corse='corse'></ListB>
                
                 <!-- <li><i class="far fa-arrow-alt-circle-right fs-5 me-3"></i> Pass Plus</li>
                 <li><i class="far fa-arrow-alt-circle-right fs-5 me-3"></i> Intensive Course</li>
@@ -59,12 +59,14 @@
 
 <script>
 import ListA from '@/components/ListA.vue'
+import ListB from '@/components/ListB.vue'
 
 
 export default {
   name: 'Footer',
   components: {
     ListA,
+    ListB
     
   },
   data(){
