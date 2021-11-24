@@ -1,41 +1,41 @@
 <template>
     <main>
       <!-- section first lesson -->
-      <section class="first_lesson border">
+      <section class="first_lesson ">
         <div class="container-lg">
           <div class="row p-5">
 
-            <div class="col-6 py-4  border">
-              <h2 class="mb-4">Get Behind The Wheel</h2>
-              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quo. Dolor nemo voluptas recusandae optio explicabo sequi qui! Quidem asperiores voluptatem sequi repellendus ad quae autem ullam laudantium doloremque unde.</p>
-              <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quaerat minima placeat totam asperiores dolore quis, libero consequuntur! Suscipit totam dolorum nostrum perferendis accusantium cupiditate non corrupti qui expedita magni!</small>
+            <div class="col-6 py-4  ">
+              <h2 class="mb-5">Get Behind The Wheel</h2>
+              <p class="mb-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quo. Dolor nemo voluptas recusandae optio explicabo sequi qui! Quidem asperiores voluptatem sequi repellendus ad quae autem ullam laudantium doloremque unde.</p>
+              <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quaerat minima placeat totam asperiores dolore quis, libero consequuntur! Suscipit totam dolorum nostrum perferendis accusantium cupiditate non corrupti qui expedita magni!</p>
             </div>
             <!-- FORM free lesson -->
-            <div class="col-6 border">
-              <div class="border p-4">
+            <div class="col-6 ">
+              <div class="form_lesson_a p-5">
 
                 <h2 class="mb-4 text-center">First Lesson Free!</h2>                
-                <p class="mb-4 text-center">When you make a block booking with us your first lesson is included free.</p>
+                <p class="mb-4 text-center fs-6">When you make a block booking with us your first lesson is included free.</p>
 
-                <form>
-                   <div class="mb-3 border position-relative">                  
-                    <input type="text" class="form-control" placeholder="Your Name*" required >          
-                    <img src="../assets/img/image.png" alt="image" class="position-absolute top-0 end-0">
+                <form class="d-flex flex-column form_lesson_b"> 
+                   <div class="mb-5 name_input">                  
+                    <input type="text" class="form-control " placeholder="Your Name*" required >          
+                    <img src="../assets/img/image.png" alt="image" >
                   </div>
 
-                  <div class="mb-3">                  
+                  <div class="mb-5">                  
                     <input type="email" class="form-control" placeholder="Email*" required>          
                   </div>
 
-                   <div class="mb-3">                  
+                   <div class="mb-5">                  
                     <input type="tel" class="form-control" placeholder="Telephone">          
                   </div>
 
-                   <div class="mb-3">                  
+                   <div class="mb-5">                  
                     <input type="text" class="form-control" placeholder="Location">          
                   </div>
                   
-                  <button type="submit" class="btn border">REQUEST A CALLBACK</button>
+                  <button type="submit" class="btn align-self-center">REQUEST A CALLBACK</button>
                 </form>
               </div>
             </div>
@@ -45,14 +45,14 @@
       </section>
       <!-- section start learning -->
       <section class="star_learning">
-        <div class="container-fluid start_fluid border">
-          <div class="container-lg">
+        <div class="container-fluid start_fluid ">
+          <div class="container-lg px-5 py-4">
             <div class="row">
-              <div class="col-6 border text-white d-flex flex-column justify-content-center  start_a">
-                <h2>Start Learning to Drive Today</h2>
-                <p>Give us  a call to shedule your first driving lesson.</p>
+              <div class="col-6  text-white d-flex flex-column justify-content-center  start_a">
+                <h2 >Start Learning to Drive Today</h2>
+                <p class="text-white ">Give us  a call to shedule your first driving lesson.</p>
               </div>
-              <div class="col-6 border text-white d-flex justify-content-center align-items-center start_b">
+              <div class="col-6  text-white d-flex justify-content-center align-items-center start_b">
                 <h3><i class="fas fa-phone me-4"></i> 1-800-555-555</h3>
               </div>
             </div>
