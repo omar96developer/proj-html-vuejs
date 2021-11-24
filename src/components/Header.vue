@@ -1,17 +1,16 @@
 <template>
   <header class="header_section ">
-
     <!-- NavBar w/info -->
     <!-- Info -->
     <nav class="nav_bar">
       <div class="container-fluid nav_a">
-        <div class="container-lg border">
+        <div class="container-lg border px-5">
           <div class="row">
-            <div class="col-6 nav_a1 border d-flex">
-              <small>We have a 95% Successful pass rate!</small>
+            <div class="col-6 nav_a1 border d-flex py-2">
+              <p>We have a 95% Successful pass rate!</p>
             </div>
-            <div class="col-6 nav_a2 border d-flex justify-content-end">
-              <small><i class="fas fa-phone"></i> Give us a call to book your tuition! 1-800-555-555</small>
+            <div class="col-6 nav_a2 border d-flex justify-content-end py-2">
+              <p><i class="fas fa-phone"></i> Give us a call to book your tuition! 1-800-555-555</p>
             </div>
           </div>
         </div>
@@ -19,20 +18,20 @@
       <!-- logo and link -->
       <!-- dinamic -->
       <div class="container-fluid nav_b">
-        <div class="container-lg border">
-          <div class="row d-flex">
-            <div class="col-5 nav_b1 border">
-              <h1>logo</h1>
+        <div class="container-lg border px-5">
+          <div class="row d-flex ">
+            <div class="col-5 py-4 nav_b1 border">
+              <img src="../assets/img/avada-drivers-logo-1x.png" alt="">
             </div>
-            <div class="col-7 nav_b2 border d-flex">
+            <div class="col-7 py-4 nav_b2 border d-flex">
               <ul class="d-flex ">
-                <li>home</li>
-                <li>home</li>
-                <li>home</li>
-                <li>home</li>
-                <li>home</li>
-                <li>home</li>
-                <li>button</li>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>PRICES</li>
+                <li>COURSES</li>
+                <li>LOCATIONS</li>
+                <li>BLOG</li>
+                <li><a href="#">BOOK NOW</a></li>
               </ul>
             </div>
           </div>
@@ -46,7 +45,7 @@
         <div class="row d-flex hero_section p-5">
           <div class="hero_section_a col-6 border d-flex flex-column">
             <h1>Drive with Avada</h1>
-            <p>We offer th e finest driving tuition money can buy</p>
+            <p>We offer the finest driving tuition money can buy</p>
           </div>
          
         </div>
@@ -55,12 +54,12 @@
   <!-- icon -->
     <div class="hero_section_ico border">
         <div class="hero_ico_1 mb-2 d-flex flex-column">
-          <i class="fab fa-gripfire"></i>
-          <p>Demos</p>
+          <i class="fab fa-gripfire fs-2"></i>
+          <p class="fs-6 text-black m-0">Demos</p>
         </div>
         <div class="hero_ico_2 d-flex flex-column">
-          <p><span>$</span><span>39</span></p>
-          <p>On Sale</p>
+          <p class="m-0 fw-bold"><span class="">$</span><span class="fs-2 align-middle">39</span></p>
+          <p class="text-black fs-6">On Sale</p>
         </div>
     </div>
   </header>

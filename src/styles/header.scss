@@ -8,28 +8,31 @@
 
     
     .nav_bar {
-        height: 120px;
+
         .nav_a {
-            height: 30px;
             background-color: #484848;
-            .nav_a1, .nav_a2 {
-                height: 30px;
-                align-items: center;
-            } 
+            p {
+                margin: 0;
+            }    
         }
         .nav_b {
-            height: 90px;
-            background-color: rgba(0, 0, 0, 0.5);
-            .nav_b1, .nav_b2 {
-                height: 90px;
-            }
+            background-color: rgba(0, 0, 0, 0.5); 
             .nav_b2 {
                 ul{
                     width: 100%;
                     justify-content: space-around;
                     align-items: center;
+                    margin: 0;
                     li{
                         list-style: none;
+                        font-weight: 500;
+                    }
+                    a{
+                        background-color: #7abc64;
+                        color: white;
+                        border-radius: 15px;
+                        text-decoration: none;
+                        padding: 5px 15px;
                     }
                     
                 }
@@ -41,6 +44,13 @@
         height: calc(80vh - 120px);
         .hero_section_a {
             justify-content: center;
+            h1{
+                font-size: 45px;
+            }
+            p{
+                color: white;
+                font-size: 20px;
+            }
         }
         
     }
@@ -59,6 +69,9 @@
             justify-content: center;
             align-items: center;
             border-radius: 10px;
+            span{
+                color:#7abc64;
+            }
         }
     }
 }
