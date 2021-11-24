@@ -2,7 +2,7 @@
   <header class="header_section ">
     <!-- NavBar w/info -->
     <!-- Info -->
-    <nav class="nav_bar">
+    <nav class="nav_bar" id="id1">
       <div class="container-fluid nav_a">
         <div class="container-lg px-5">
           <div class="row">
@@ -26,9 +26,6 @@
             <div class="col-7 py-4 nav_b2 d-flex">
               <ul class="d-flex ">
                 <Navbar v-for="(link, i) in navLink" :key="i" :links='link'></Navbar>
-                
-                
-                <!-- <li><a class="nav-btn" href="#">BOOK NOW</a></li> -->
               </ul>
             </div>
           </div>
@@ -76,27 +73,28 @@ export default {
     return {
       navLink: [
         {
-          link: 'id1',
+          link: '#id1',
           text: 'HOME'
         },
         {
-          link: 'id2',
+          link: '#id2',
           text: 'ABOUT'
         },
         {
-          link: 'id3',
+          link: '#id3',
           text: 'PRICES'
         },
         {
-          link: 'id4',
-          text: 'COURSES'
+          link: '#id4',
+          text: 'COURSES',
+          newt: 'New'
         },
         {
-          link: 'id5',
+          link: '#id5',
           text: 'LOCATION'
         },
         {
-          link: 'id6',
+          link: '#id6',
           text: 'BLOG',
           
         },

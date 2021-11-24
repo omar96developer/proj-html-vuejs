@@ -22,6 +22,7 @@ export default {
 <style scoped lang='scss'>
 li {
     color: #7abc64;
+    cursor: pointer;
     
 }
 </style>

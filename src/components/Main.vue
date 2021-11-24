@@ -61,7 +61,7 @@
       </section>
       <!-- section courses -->
       <section  class="courses">
-        <div class="container-lg courses_a p-5">
+        <div  class="container-lg courses_a p-5">
           <!-- course info -->
           <div class="row d-flex  courses_a">
             <!-- course info -->
@@ -117,7 +117,7 @@
         </div>
       </section>
       <!-- section instructor -->
-      <section class="instructor ">
+      <section class="instructor " >
         <div class="container-lg  px-5"> 
           <div class="row  inst_a">
             <div class="col-8 ">
@@ -133,7 +133,7 @@
             <div class="col-12 d-flex justify-content-between p-0">
               <div class="card p-5" >
                   <img src="../assets/img/instructor-mikehart.jpg" class="card-img-top" alt="passplus">
-                  <div class="card-body text-center">
+                  <div class="card-body text-center" title="Mike Hart">
                     <h5 class="card-title">Mike Hart</h5>
                     <p><i class="fab fa-facebook-f me-3"></i><i class="fab fa-twitter me-3"></i><i class="fab fa-instagram"></i></p>                    
                                         

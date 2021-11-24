@@ -2,8 +2,8 @@
   <footer>
     <section class="footer_a text-white">
       <div class="container-lg d-flex p-5">
-        <div class="row">
 
+        <div class="row">
           <div class="col-3 d-flex flex-column">
             <img src="../assets/img/avada-drivers-logo-1x.png" alt="logo">
             <p class="mt-3">Avada Driving School is the right choise for experianced drivers looking for a refresher course, or the brand new drive wanting to pass first time.</p>
@@ -43,7 +43,9 @@
       </div>
     </section>
     <section class="footer_b">
-      <div class="container-lg">
+      <div class="container-lg position-relative">
+           <a href="#id1" class="d-flex justify-content-center align-items-center position-absolute"><i class="fas fa-angle-up"></i></a>
+
         <div class="row px-5 py-4 text-white">
           <div class="col-8">
             <p><i class="far fa-copyright"></i> Copyright 2012 - 2020: Avada Theme by <span>ThemeFusion</span>  | All Right Reserved | Powered by <span>WordPress</span> </p>
