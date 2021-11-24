@@ -127,9 +127,6 @@
                       </div>
                       <p class="mt-3 fs-4">ACCIDENT RATE</p>
                   </div>
-
-                  
-
                 </div>
               </div>        
             </div>           
