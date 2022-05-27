@@ -1,10 +1,8 @@
-# proj-html-vuejs
-
 # AVADA DRIVING SCHOOL
 
 Hello everybody!  
  
- Site created with Vue Js, in which the navigation bar and the footer are dynamically populated.
+Website created with Vue Js, in which the navigation bar and the footer are dynamically populated.
  
 
 
@@ -18,6 +16,7 @@ Enjoy 😉.
 
 ## Screenshots
 
+![avadafull](https://user-images.githubusercontent.com/84162621/170788534-6badf36c-7809-4dda-aae0-f779098b70b0.png)
 
 
 
@@ -37,15 +36,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
