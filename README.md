@@ -1,5 +1,32 @@
 # proj-html-vuejs
 
+# AVADA DRIVING SCHOOL
+
+Hello everybody!  
+ 
+ Site created with Vue Js, in which the navigation bar and the footer are dynamically populated.
+ 
+
+
+Enjoy 😉.
+## Demo
+
+[🔗 Website link](https://avadadrivingschool.netlify.app/)
+
+
+
+
+## Screenshots
+
+
+
+
+## Authors
+
+- [@omar96developer](https://github.com/omar96developer)
+
+
+
 ## Project setup
 ```
 npm install
